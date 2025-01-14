@@ -1,4 +1,4 @@
-import doctest
+
 class SocialNetwork:
 
     def init(self, name: str, users: float):
@@ -52,5 +52,4 @@ class SocialNetwork:
             {'name': 'Test', 'age': 22}
         True
         """
-        if __name__ == "__main__":
-            doctest.testmod()
+    
