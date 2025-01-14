@@ -1,4 +1,4 @@
-import doctest
+
 class table:
 
     def init(self, material: str, weight: float):
@@ -45,5 +45,4 @@ class table:
         >>> table.move("living room")
         True
         """
-        if __name__ == "__main__":
-            doctest.testmod()
+       
