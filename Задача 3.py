@@ -1,4 +1,4 @@
-import doctest
+
 class DataStructure:
 
     def __init__(self, capacity: int, data_type: type):
@@ -51,5 +51,4 @@ class DataStructure:
            1
         True
         """
-        if __name__ == "__main__":
-            doctest.testmod()
+      
